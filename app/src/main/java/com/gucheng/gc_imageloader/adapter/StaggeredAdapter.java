@@ -32,5 +32,6 @@ public class StaggeredAdapter extends SimpleAdapter {
         ViewGroup.LayoutParams layoutParams = holder.itemView.getLayoutParams();
         layoutParams.height = mHeights.get(position);
         holder.itemView.setLayoutParams(layoutParams);
+
     }
 }
